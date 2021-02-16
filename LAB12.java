@@ -17,8 +17,8 @@ public class LAB12 {
       n=n*3;
       int a=  Integer.parseInt("10101",2);
       int b= Integer.parseInt("FF",16);
-      y=add(a,b,n);
-      n=n*6;
+      y=a+b+n;
+      y=y*6;
       System.out.println("Willy-nilly,this semestre I will learn");
       for(int i=0; i<array.lenght ;i++)
           System.out.println(array[i]+" ");
